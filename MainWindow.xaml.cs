@@ -17,7 +17,7 @@ namespace felkaruRablo
     /// </summary>
     public partial class MainWindow : Window
     {
-		private int balance = 100;
+		private int balance = 100; // kezdő kredit - átállítható
 		private const int spinCost = 10;
 
 		private Random rnd = new Random();
@@ -34,8 +34,8 @@ namespace felkaruRablo
         {
             InitializeComponent();
 
-			// teszt
-			int symbolCount = 6;
+			// teszt 
+			int symbolCount = 6; // szimbólumok száma - átállítható
 
 			symbols = new string[symbolCount];
 
