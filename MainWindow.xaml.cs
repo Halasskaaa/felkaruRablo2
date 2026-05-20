@@ -118,12 +118,12 @@ namespace felkaruRablo
 			if (r1 == r2 && r2 == r3)
 			{
 				balance += 50;
-				ResultText.Text = "BIG WIN!";
+				ResultText.Text = "BIG WIN! (+50 credit)";
 			}
 			else if (r1 == r2 || r2 == r3 || r1 == r3)
 			{
 				balance += 20;
-				ResultText.Text = "You win!";
+				ResultText.Text = "You win! (+20 credit)";
 			}
 			else
 			{
